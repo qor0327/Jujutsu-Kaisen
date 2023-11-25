@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<title>주술회전</title>
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-brand img {
+            width: 150px;
+        }
+
+        .bg-transparent {
+            background-color: rgba(0, 0, 0, 0) !important
+        }
+
+        .bg-black {
+            background-color: black;
+        }
+
+        .btn-outline-gold {
+            color: rgb(211, 201, 136);
+            border: 1px solid rgb(211, 201, 136);
+        }
+
+        .btn-outline-gold:hover {
+            background-color: rgb(211, 201, 136);
+            color: black;
+        }
+        .imgOverlay{
+            font-size: 1.5vw;
+        }
+        .imgOverlay .btn {
+            opacity: 0;
+            transition: opacity 1s;
+        }
+
+        .imgOverlay .card {
+            cursor: pointer;
+            /*overflow: hidden;*/
+        }
+
+        .imgOverlay .bg-secondary {
+            background-color: rgba(41, 41, 41, 0.0) !important;
+            color: rgba(255, 255, 255, 0);
+            transition: 1s;
+        }
+
+        .imgOverlay .bg-secondary:hover {
+            background-color: rgba(41, 41, 41, 0.8) !important;
+            color: rgba(255, 255, 255, 1);
+            transition: 1s;
+        }
+
+        .imgOverlay .card:hover .btn {
+            opacity: 1;
+        }
+        footer{
+            margin-top: 150px;
+            color: #b8b8b8;
+            background-color: rgb(44, 44, 44);
+        }
+
+        .iroe {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-black">
+        <div class="row">
+            <div class="col px-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="col">
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a class="navbar-brand mx-auto"
+                                href="index.html"><img
+                                    src="img/logo1.png" alt=""></a>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                                <button class="btn btn-outline-gold my-2 my-sm-0" type="submit">검색</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hL_rA7FbCLU?si=QqhPtWgU2biGGSFm"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10vh; padding-bottom: 8vh;"></div>
+        <div class="row" style="display: flex; justify-content: center; align-items: center; margin: 2vh 0;">
+            <img src="img/logo1.png" alt="" style="height: 4em;">
+            <h1 style="color: #fff;">&nbsp;보러가기</h1>
+        </div>
+       <div class="row imgOverlay iroe">
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime1.jpg" class="card-img" alt="주술회전 1기">
+                    <div iv class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 1기</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">part1: 2020.10.03 ~ 2020.12.26<br>
+                            part2: 2021.01.16 ~ 2021.03.27</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime2.jpg" class="card-img" alt="주술회전 극장판:0(ZERO)">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 극장판:0(ZERO)</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">개봉일: 2022.2.17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime3.jpg" class="card-img" alt="주술회전 2기:회옥 · 옥절">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:회옥 · 옥절</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영일: 2023.07.06 ~ 2023.08.03</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime4.jpg" class="card-img" alt="주술회전 2기:시부야사변">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:시부야사변</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영중</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       <div class="row imgOverlay iroe">
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime1.jpg" class="card-img" alt="주술회전 1기">
+                    <div iv class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 1기</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">part1: 2020.10.03 ~ 2020.12.26<br>
+                            part2: 2021.01.16 ~ 2021.03.27</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime2.jpg" class="card-img" alt="주술회전 극장판:0(ZERO)">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 극장판:0(ZERO)</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">개봉일: 2022.2.17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime3.jpg" class="card-img" alt="주술회전 2기:회옥 · 옥절">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:회옥 · 옥절</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영일: 2023.07.06 ~ 2023.08.03</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime4.jpg" class="card-img" alt="주술회전 2기:시부야사변">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:시부야사변</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영중</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       <div class="row imgOverlay iroe">
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime1.jpg" class="card-img" alt="주술회전 1기">
+                    <div iv class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 1기</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">part1: 2020.10.03 ~ 2020.12.26<br>
+                            part2: 2021.01.16 ~ 2021.03.27</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime2.jpg" class="card-img" alt="주술회전 극장판:0(ZERO)">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 극장판:0(ZERO)</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">개봉일: 2022.2.17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime3.jpg" class="card-img" alt="주술회전 2기:회옥 · 옥절">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:회옥 · 옥절</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영일: 2023.07.06 ~ 2023.08.03</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime4.jpg" class="card-img" alt="주술회전 2기:시부야사변">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:시부야사변</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영중</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       <div class="row imgOverlay iroe">
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime1.jpg" class="card-img" alt="주술회전 1기">
+                    <div iv class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 1기</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">part1: 2020.10.03 ~ 2020.12.26<br>
+                            part2: 2021.01.16 ~ 2021.03.27</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime2.jpg" class="card-img" alt="주술회전 극장판:0(ZERO)">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 극장판:0(ZERO)</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">개봉일: 2022.2.17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime3.jpg" class="card-img" alt="주술회전 2기:회옥 · 옥절">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:회옥 · 옥절</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영일: 2023.07.06 ~ 2023.08.03</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white">
+                    <img src="img/anime4.jpg" class="card-img" alt="주술회전 2기:시부야사변">
+                    <div class="card-img-overlay bg-secondary">
+                        <div class="w-100 d-flex justify-content-end">
+                            <a href="" class="btn btn-outline-light btn-block ">보러가기</a>
+                        </div>
+                        <h2 class="card-title">주술회전 2기:시부야사변</h2>
+                        <p class="card-text"></p>
+                        <p class="card-text">방영중</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer-07">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center">
+						<h2 class="footer-heading"><a href="#" class="logo">백서영 포트폴리오</a></h2>
+						<p class="menu">
+							<a href="#">Home</a>
+							<a href="#">Agent</a>
+							<a href="#">About</a>
+							<a href="#">Listing</a>
+							<a href="#">Blog</a>
+							<a href="#">Contact</a>
+						</p>
+						<ul class="ftco-footer-social p-0">
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+            </ul>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">ME</a>
+					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
