@@ -8181,7 +8181,7 @@ h1, h2, h3, h4, h5,
     .ftco-footer-social li a:hover {
       color: #fff; }
 
-.form-control {
+  footer .form-control {
   height: 52px;
   background: #fff;
   color: #000;
